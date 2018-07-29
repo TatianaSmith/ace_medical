@@ -1,0 +1,13 @@
+name: Twenty Site
+version: 1.1.0
+description: "Twenty is a free and responsive theme for **Grav**. It's a port of **Twenty** template by HTML5 UP."
+icon: group
+author:
+  name: Team Grav
+  email: devs@getgrav.org
+  url: http://getgrav.org
+homepage: https://github.com/getgrav/grav-skeleton-twenty-site
+demo: http://demo.getgrav.org/twenty-skeleton
+keywords: twenty, skeleton, scroll, single, page, modular
+bugs: https://github.com/getgrav/grav-skeleton-twenty-site/issues
+license: MIT
