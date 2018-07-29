@@ -1,0 +1,35 @@
+    </main>
+
+    <!-- sidebar -->
+    <aside>
+
+      <section class='categories'>
+        <h3>Categories</h3>
+        <ul>
+          <% wit.categories.forEach(function(category) { %>
+          <li><a href='/blog/category/<%= category %>'><%= category %></a></li>
+          <% }); %>
+        </ul>
+      </section>
+
+      <section class='tags'>
+        <h3>Tags</h3>
+        <ul>
+          <% wit.tags.forEach(function(tag) { %>
+          <li><a href='/blog/tag/<%= tag %>'><%= tag %></a></li>
+          <% }); %>
+        </ul>
+      </section>
+
+      <section class='archive'>
+        <h3>Archive</h3>
+        <ul>
+          <% wit.params.years.forEach(function(year) { %>
+          <li><a href='/blog/archive/<%= year %>'><%= year %></a></li>
+          <% }); %>
+        </ul>
+      </section>
+    </aside>
+
+  </body>
+</html>
